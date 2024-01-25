@@ -9,23 +9,24 @@
 <script src="script.js"></script>
 <link rel="stylesheet" href="style.css">
 </head>
+
 <body class="dark-grey-bg text-white">
 <div class="p-4">
-  <h1 class="text-4xl neon-green text-center mb-6">WR1 Sports Coach</h1>
-  <br><br>
-  <div id="app" class="space-y-4">
-    <!-- User Type Selection Screen -->
-    <div id="userTypeScreen" class="text-center">
-      <button class="neon-green-bg text-black px-4 py-2 m-2" onclick="showLoginScreen('Schüler')">Schüler</button>
-      <button class="neon-green-bg text-black px-4 py-2 m-2" onclick="showLoginScreen('Lehrer')">Lehrer</button>
-    </div>
-    <!-- Login Screen -->
-    <div id="loginScreen" class="hidden text-center">
-      <input type="text" placeholder="user" class="px-4 py-2 m-2"><br>
-      <input type="password" placeholder="password" class="px-4 py-2 m-2"><br>
-      <button class="neon-green-bg text-black px-4 py-2 m-2" onclick="showChallengeScreen()">GO</button>
-    </div>
-    <!-- Challenge Selection Screen -->
+    <h1 class="text-4xl neon-green text-center mb-6">WR1 Sports Coach</h1>
+    <br><br>
+    <div id="app" class="space-y-4">
+      <!-- User Type Selection Screen -->
+      <div id="userTypeScreen" class="text-center">
+        <button class="neon-green-bg text-black px-4 py-2 m-2" onclick="showLoginScreen('Schüler')">Schüler</button>
+        <button class="neon-green-bg text-black px-4 py-2 m-2" onclick="showLoginScreen('Lehrer')">Lehrer</button>
+      </div>
+      <!-- Login Screen -->
+      <div id="loginScreen" class="hidden text-center">
+        <input type="text" placeholder="user" class="px-4 py-2 m-2"><br>
+        <input type="password" placeholder="password" class="px-4 py-2 m-2"><br>
+        <button class="neon-green-bg text-black px-4 py-2 m-2" onclick="showChallengeScreen()">GO</button>
+      </div>
+      <!-- Challenge Selection Screen -->
     <div id="challengeScreen" class="hidden text-center">
       <p>Hi User!</p>
       <p>Choose your challenge:</p><br>
