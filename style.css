@@ -1,8 +1,23 @@
 :root {
-    --bg-color: #555;
+    --bg-color: #2e2e2e;
     --green: #39FF14;
   }  
 
 body {
     font-family: 'Roboto', sans-serif;
-  }
+    background-color: var(--bg-color);
+}
+
+.text-green {
+    color: var(--green);
+}
+
+button {
+    background-color: var(--green);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #000;
+    font-size: 16px;
+    cursor: pointer;
+}
