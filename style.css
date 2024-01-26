@@ -1,6 +1,7 @@
 :root {
     --bg-color: #2e2e2e;
     --green: #39FF14;
+    --red: #FF0000;
   }  
 
 body {
@@ -10,6 +11,10 @@ body {
 
 .text-green {
     color: var(--green);
+}
+
+.text-red {
+    color: var(--red);
 }
 
 button {
