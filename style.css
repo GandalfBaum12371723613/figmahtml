@@ -22,10 +22,12 @@ button {
     cursor: pointer;
 }
 
-.cam {
+.cam{
     aspect-ratio: 1/1;
     width: 25vh;
     border-radius: 5%;
+    grid-column-start: 1;
+    grid-column-end: 2;
 }
 .cam-div {
     aspect-ratio: 1/1;
@@ -33,4 +35,8 @@ button {
     border-radius: 5%;
     background-color: gray;
     align-items: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 10px;
 }
