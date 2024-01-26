@@ -32,8 +32,6 @@ button {
     aspect-ratio: 1/1;
     width: 25vh;
     border-radius: 5%;
-    grid-column-start: 1;
-    grid-column-end: 2;
 }
 .cam-div {
     aspect-ratio: 1/1;
@@ -69,4 +67,19 @@ input[type=password] {
     box-sizing: border-box;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 15px 12px;
+}
+
+.img{
+    aspect-ratio: 1/1;
+    width: 25vh;
+    border-radius: 5%;
+}
+
+.img-div {
+    aspect-ratio: 1/1;
+    width: 78vh;
+    border-radius: 5%;
+    background-color: gray;
+    padding: 10px;
+    box-shadow: #000 10px 10px 50px 12px;
 }
